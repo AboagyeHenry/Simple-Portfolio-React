@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {MenuIcon, X } from "lucide-react";
 import { navItems } from "../Constants";
+import logo from "../assets/logo.png"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
     <div>
       <nav className="sticky top-0 z-50 flex flex-row lg:flex justify-around items-center h-20 py-4 bg-black">
         <div className="flex justify-center text-center" style={{ width: 200 }}>
-          <img src="/src/assets/logo.png" className="h-10 w-10" alt="logo" />
+          <img src={logo} className="h-10 w-10" alt="logo" />
           <h2 className="text-white text-2xl">Blemo.Dev</h2>
         </div>
 

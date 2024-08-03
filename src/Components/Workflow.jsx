@@ -1,4 +1,5 @@
 import {workflows} from "../Constants/index"
+import codes from "../assets/code.jpg"
 
 export default function Workflow() {
   return (
@@ -13,7 +14,7 @@ export default function Workflow() {
       </div>
 
       <div className="flex flex-col justify-center lg:flex lg:flex-row xl:gap-10  md:flex md:flex-col md:mx-10 text-center gap-16 lg:gap-8 mt-16">
-        <div><img src="/src/assets/code.jpg" className="w-[20rem] mx-auto lg:w-[25rem] md:w-[30rem] xl:w-[35rem]"  alt="Codes" /></div>
+        <div><img src={codes} className="w-[20rem] mx-auto lg:w-[25rem] md:w-[30rem] xl:w-[35rem]"  alt="Codes" /></div>
         <div className="flex flex-col gap-7 lg:flex lg:flex-col lg:gap-4  md:flex md:flex-row md:flex-wrap xl:gap-12 text-white">
           {workflows.map((workflow, index) => (
             <div key={index}>
