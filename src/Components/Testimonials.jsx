@@ -21,7 +21,7 @@ export default function Testimonials() {
         ))}
       </div>
 
-      <div className="w-[300px] mx-auto lg:w-[750px] md:w-[680px] bg-white h-[1px] mt-24 mb-16"></div>
+      <div className="w-[300px] mx-auto lg:w-[750px] md:w-[680px] xl:w-[100rem] bg-white h-[1px] mt-24 mb-16"></div>
     </div>
   );
 }

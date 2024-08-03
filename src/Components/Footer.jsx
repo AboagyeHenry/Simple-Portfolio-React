@@ -2,7 +2,7 @@ import { communityLinks, platformLinks, resourcesLinks } from "../Constants";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col md:flex-row md:mx-auto gap-y-8 mb-4">
+    <div className="flex flex-col xl:mx-40 xl:gap-x-60 md:flex-row md:mx-auto gap-y-8 mb-4">
       <div className="text-center text-xl text-white md:ml-20 lg:ml-48">
       <h1 className="text-white">Getting Started</h1>
         {resourcesLinks.map((resources, index) => (

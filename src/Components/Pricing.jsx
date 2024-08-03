@@ -13,7 +13,7 @@ export default function Pricing() {
         {pricingOptions.map((price, index) => (
           <div key={index}>
             <div className=" text-white w-full">
-              <div className="flex flex-col gap-4 border-solid border-zinc-500 border-[1px] mx-auto p-8 rounded-2xl w-72 h-96">
+              <div className="flex flex-col gap-4 border-solid border-zinc-500 border-[1px] mx-auto p-8 rounded-2xl w-72 h-96 ">
                 <h1 className="text-2xl">
                   {price.title}{" "}
                   <span className="text-2xl">
